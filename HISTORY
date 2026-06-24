@@ -1,5 +1,9 @@
 = Release History
 
+== 3.2.3.0 / 2026-06-18
+
+* Relax mini_portile2 constraint from ~> 2.5.0 to >= 2.5, < 3 to allow compatibility with rdkafka >= 0.13
+
 == 3.2.1 / 2020-11-05
 
 * Fix incorrect handling of encodings when using XMLWriter.io (Charlie Savage)

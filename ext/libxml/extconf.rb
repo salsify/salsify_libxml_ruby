@@ -2,7 +2,7 @@
 
 require 'mkmf'
 require 'rubygems'
-gem 'mini_portile2', '~> 2.5' # Keep this version in sync with the one in the gemspec!
+gem 'mini_portile2', '>= 2.5', '< 3' # Keep this version in sync with the one in the gemspec!
 require 'mini_portile2'
 message "Using mini_portile2 version #{MiniPortile::VERSION}\n"
 
